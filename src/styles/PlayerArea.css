@@ -1,0 +1,32 @@
+.playerArea {
+    border: 1px solid gray;
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .playerArea:hover {
+    transform: scale(1.05);
+  }
+  
+  .playerArea.selected {
+    border-color: green;
+    background-color: lightgreen;
+  }
+  
+  .cardSelectors, .cardsDisplay {
+    margin-top: 10px;
+  }
+  
+  .cardSelectors select, .cardSelectors button {
+    margin-right: 5px;
+  }
+  
+  .cardsDisplay div {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
